@@ -1,0 +1,35 @@
+/cozy-corner-cafe/
+|
+|-- admin/
+|   |-- index.php           # Admin dashboard (login required)
+|   |-- menu.php            # Manage menu items (CRUD)
+|   |-- tables.php          # Manage tables & QR codes (CRUD)
+|   |-- orders.php          # View and update orders
+|   |-- coupons.php         # Manage coupons (CRUD)
+|   |-- pos.php             # Mini Point-of-Sale for takeaway
+|
+|-- config/
+|   |-- db.php              # Database connection and configuration
+|   |-- functions.php       # Core functions (e.g., is_logged_in())
+|
+|-- partials/
+|   |-- header.php          # Shared HTML head and navigation bar
+|   |-- footer.php          # Shared HTML footer
+|
+|-- templates/
+|   |-- email/
+|   |   |-- registration_welcome.html # Welcome email template
+|
+|-- assets/
+|   |-- images/             # Logo, favicons, etc.
+|
+|-- index.php               # Main landing page (from previous step)
+|-- menu.php                # Public menu page (requires login to order)
+|-- cart.php                # User's shopping cart
+|-- checkout.php            # Order and payment process
+|-- my_orders.php           # View personal order history
+|-- login.php               # User login page
+|-- register.php            # User registration page
+|-- logout.php              # Script to handle user logout
+|
+|-- .htaccess               # Optional: For cleaner URLs
